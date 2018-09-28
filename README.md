@@ -1,11 +1,3 @@
-/*Existe un archivo llamado "datos.dat" de tipo binario cuya organización es secuencial con la siguiente 
-estructura: id(clave long int), d(descripción char), t(tipo int), m(marca A alta B baja)
-
-Realizar una funcion que pase como parametro el id de la pieza, si el registro esta marcado como 'A'
-deberá modificar la descripción por "Registro Procesado", marcarlo como 'B' en el archivo y retornar 
-el registro. Si esta marcado como 'B' utilizando punteros cambiar la descripción las 'a' y las 'o' 
-por 'e', retornando el registro y grabándolo en el archivo "baja.dat". No usar variables globales.*/
-  
 #include <stdlib.h>
 #include<stdio.h>
 #include<string.h>
