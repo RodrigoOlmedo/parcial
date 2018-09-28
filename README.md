@@ -1,4 +1,4 @@
-/*Existe un archivo llamado "datos.dat" de tipo binario cuya organización es directa con la siguiente 
+/*Existe un archivo llamado "datos.dat" de tipo binario cuya organización es secuencial con la siguiente 
 estructura: id(clave long int), d(descripción char), t(tipo int), m(marca A alta B baja)
 
 Realizar una funcion que pase como parametro el id de la pieza, si el registro esta marcado como 'A'
